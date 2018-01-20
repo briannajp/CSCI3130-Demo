@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void button_click(View view)
     {
-        //swap whatever is in the edit text field into text view
+        //swap the inputted text in the edit text field into text view
         textOutput.setText(textInput.getText());
         textInput.setFocusable(false);
     }
